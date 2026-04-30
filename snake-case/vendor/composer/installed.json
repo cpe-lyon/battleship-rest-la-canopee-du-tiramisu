@@ -1,0 +1,34 @@
+{
+    "packages": [
+        {
+            "name": "yosko/watamelo",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://framagit.org/yosko/watamelo.git",
+                "reference": "64b096067257d199cbe1152c1e9bdb73920362ac"
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "time": "2026-04-29T12:29:28+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Watamelo\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "description": "small PHP MVC Framework",
+            "install-path": "../yosko/watamelo"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
