@@ -1,0 +1,3 @@
+[submodule "vendor/yosko/watamelo"]
+	path = vendor/yosko/watamelo
+	url = git@github.com:yosko/watamelo.git

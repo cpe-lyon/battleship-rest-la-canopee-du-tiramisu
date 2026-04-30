@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+
+# enable URL Rewriting
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+
+# anything outside of public is redirected to the app
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^.*$ public/index.php [QSA,L]
+
+# direct access in public/ allowed
+# but if not found, redirect to the app
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ public/index.php [QSA,L]
+
+</IfModule>

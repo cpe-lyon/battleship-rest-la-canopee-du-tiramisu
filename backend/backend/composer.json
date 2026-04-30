@@ -1,0 +1,11 @@
+{
+    "type": "app",
+    "require": {
+        "yosko/watamelo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
