@@ -1,0 +1,11 @@
+:root {
+    color-scheme: dark;
+    background-color: #333;
+}
+code, pre {
+    color: #4AF626;
+    background-color: black;
+    font-weight: bold;
+    padding: .1em .3em;
+    border-radius: .3em;
+}
